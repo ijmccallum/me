@@ -1,6 +1,6 @@
-# Devtainment
+# Devtainment 
 
-Pretty much my own "Awesome list" of dev things whenever there's a moment to spare.
+Development themed entertainment ... 😎
 
 ## Podcasts
 

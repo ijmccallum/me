@@ -1,15 +1,19 @@
 # Code Bucket list / Things I don't know
 
-## Languages to work with in a production app
+## Next language to dig into
 
-- [x] JavaScript _Love it! Bread and butter._
-- [ ] Typescript
-- [x] PHP _ish_
-- [ ] Python
-- [ ] Go
-- [ ] C/C++
-- [ ] Rust
-- [ ] Cobol 
+Why learn a new language?
+
+|            | Community | Jobs/$$$ | Interest? |
+|------------|-----------|----------|-----------|
+| Go         |           |          |           |
+| Python     |           |          |           |
+| Rust       |           |          |           |
+| R          |           |          |           |
+| Typescript |           |          |           |
+| C++        |           |          |           |
+| C#         |           |          |           |
+| Cobol      |           |          |           |
 
 ## Tools to learn / research / evaluate
 

@@ -1,1 +1,9 @@
-Hello! I think about systems and write code for fun & money.
+---
+prev: false
+next: false
+pageClass: index
+---
+
+This is one developer's notebook (mine! 👋)
+
+[Linkedin](https://www.linkedin.com/in/iainjmccallum) | [Github](https://github.com/ijmccallum)

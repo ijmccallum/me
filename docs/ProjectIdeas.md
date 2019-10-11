@@ -1,4 +1,4 @@
-# Project ideas
+# Projects / ideas
 
 Some slightly more fleshed out ideas for things to build.
 
