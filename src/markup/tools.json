@@ -1,0 +1,69 @@
+{
+  "finds": [
+    {
+      "title": "npm scripts, Grunt, Gulp, Webpack, Rollup",
+      "url": "https://docs.npmjs.com/misc/scripts",
+      "description":
+        "I'm a fan of using consistent npm scripts to run your development & build tools, so no matter which of the others you may or may not be using there's no need to figure out what command you need to run. `npm start`, `npm build` and be done with it!"
+    },
+    {
+      "title": "Tachyons",
+      "url": "http://tachyons.io",
+      "description":
+        "I have predominantly used BEM to organise styles, but in teams split between front and back end devs - that naming convention has created some difficulties. The atomic like Tachyons library solves those difficulties beautifully! I'll still mix in some BEM but this Tachyons thing is just magic."
+    },
+    {
+      "title": "Docker",
+      "url": "https://www.docker.com/",
+      "description":
+        "The more I learn about this, the more I love it. I'm using it throughout the WikiLogic project where it has allowed me to experiment very quickly with verious pieces of tech without spending any time on installation. Looking forward to getting stuck into some Kubernetes next!"
+    },
+    {
+      "title": "Let's Encrypt",
+      "url": "https://letsencrypt.org/",
+      "description":
+        "Certs are hard. But less so now with this beauty of a tool! And it's free - it's FREE! So there's no excuse, HTTPS all your sites! All your projects! All the things!"
+    },
+    {
+      "title": "Pa11y",
+      "url": "http://pa11y.org/",
+      "description":
+        "In my experience accessibility is like code style in that they're both treated as 2nd class concerns far too often. Work this into your build tools and have it yell a11y concerns at you - it's really worth it!"
+    },
+    {
+      "title": "Postcss",
+      "url": "http://postcss.org/",
+      "description":
+        "This has replaced Sass for me. The ability to write in standard (future) CSS (with a few small additions!) and have it transpiled into browser compatible \"today\" CSS just feels right."
+    },
+    {
+      "title": "Visual Studio Code",
+      "url": "https://code.visualstudio.com/",
+      "description":
+        "I love it! The plugin's I've got running at the moment are: 'Bracket Pair Colorizer', 'ESLint', 'Prettier', 'Project Manager', 'GitLens', 'Import Cost', 'TODO Highlight', and a few language syntax highlighting ones. Took a bit of effort to move over from Sublime, but since I've moved the speed of improvments coming through has been incredible!"
+    },
+    {
+      "title": "Markdown",
+      "url": "https://en.wikipedia.org/wiki/Markdown#Example",
+      "description":
+        "If you are creating content for a website, kill your wordprocessor, they do unspeakable things to the formatting of your words. Learn markdown (it's really simple), find a Markdown editor that clicks for you, and use it. Your writing will be more consistent and, very important this part, it translates directly to html - perfect!"
+    },
+    {
+      "title": "ESLint",
+      "url": "https://eslint.org/",
+      "description":
+        "There are projects out there that still have a code style guide in document form - hilarious no?"
+    },
+    {
+      "title": "Sass Lint",
+      "url": "https://github.com/sasstools/sass-lint",
+      "description": "Because linting is always a good thing."
+    },
+    {
+      "title": "mRemoteNG",
+      "url": "https://mremoteng.org/",
+      "description":
+        "Used at work - a handy little tool to manage all your server connections: ssh / rdp / and others, just for the tabs really! It's easier than straight up putty or the windows rdp thing, or at least I find it easier."
+    }
+  ]
+}

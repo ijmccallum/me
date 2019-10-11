@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crimson Text Regular'), local('CrimsonText-Regular'), url('/fonts/CrimsonText-Regular.woff') format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    line-height: 1.4;
+    --highlight: var(--blue);
+    --linkunderline: var(--mainColor);
+}
+
+h1, h2, h3 { margin: 0; }
+h1, h2 { font-weight: normal; }
+h3 { font-weight: bold; }
+p { margin: 0; }
+a { 
+    color: var(--mainColor); 
+    text-decoration: none;
+    background-image: linear-gradient(transparent 50%, var(--linkunderline) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 90%;
+    text-shadow: 
+        0.03em 0 0 var(--mainBg),
+        0.06em 0 0 var(--mainBg),
+        0.09em 0 0 var(--mainBg),
+        0.12em 0 0 var(--mainBg),
+        0.15em 0 0 var(--mainBg),
+        -0.03em 0 0 var(--mainBg),
+        -0.06em 0 0 var(--mainBg),
+        -0.09em 0 0 var(--mainBg),
+        -0.12em 0 0 var(--mainBg),
+        -0.15em 0 0 var(--mainBg);
+}
+a:hover {
+    background-image:linear-gradient(transparent 50%, var(--highlight) 50%);
+}
+hr {
+    background: none;
+    width: 100%;
+    height: 1px;
+    border: none;
+    border-top: 1px dotted var(--blue);
+    margin: var(--pad) 0;
+    padding: 0;
+}
+.text-center { text-align: center; }

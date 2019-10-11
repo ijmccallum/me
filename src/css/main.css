@@ -1,0 +1,18 @@
+/* Abstracts: a place for variables and their utility/atomic classes */
+@import "abstracts/colors.css";
+@import "abstracts/breakpoints.css";
+@import "abstracts/sizes.css";
+
+/* Base: a place to style individual HTML elements */
+@import "base/normalize.css";
+@import "base/typography.css";
+
+/* Components: a place for styles that cover more than one element */
+@import "components/columns.css";
+@import "components/grid.css";
+@import "components/scremail.css";
+@import "components/flash.css";
+
+body {
+    padding: 10px 20px 50px;
+}

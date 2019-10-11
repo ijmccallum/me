@@ -1,0 +1,7 @@
+:root {
+    --black: #222222;
+    --white: #ffffff;
+    --blue: #6dfafb;
+    --mainColor: var(--black);
+    --mainBg: var(--white);
+}

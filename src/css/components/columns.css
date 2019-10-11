@@ -1,0 +1,17 @@
+@media (--medium) {
+
+    .columns {
+        display: table;
+        table-layout: fixed;
+    }
+
+    .columns__col {
+        display: table-cell;
+        width: calc(50% - var(--pad));
+    }
+    
+    .columns__col-gap {
+        display: table-cell;
+        width: calc(var(--pad) * 2);
+    }
+}

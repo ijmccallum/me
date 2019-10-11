@@ -1,0 +1,139 @@
+{
+    "Artificial Intelligence": {
+        "meta": ["https://en.wikipedia.org/wiki/Artificial_intelligence#Logic"],
+        "Reasoning and problem solving (logic)": {
+            "meta": ["https://en.wikipedia.org/wiki/Automated_reasoning"],
+            "Propositional logic / Propositional calculus / sentential logic / sentential calculus (things are true or false)": {
+                "tldr": "This is what WL is. "
+            },
+            "First-order logic / first-order predicate calculus / predicate calculus": {
+                "tldr": " (uses quantifiers & predicates and can express facts)",
+                "quantifier": "in natural english: 'for all', 'for some', 'many', 'few', 'a lot', 'no' - there are more specific formalised quantifiers in other areas. Could go deep here."
+            },
+            "Higher-order logic": {
+                "tldr": "has additional quantifiers (from first-order). Quantifies over sets of nth-order logics... I think. Needs more studying",
+                "Second-order logic": "quantifies over sets",
+                "Third-order logic": "quantifies over sets of sets",
+                "etc": "etc"
+            },
+            "Fuzzy logic":{
+                "tldr": "Where truth values are between 0 or 1 (not binary)"
+            },
+            "Bayes' Theorum / Bayes' Law / Bayes' Rules": {
+                "tldr":"New related evidence gives more accurate probabilities",
+                "Bayesian inference": "need to study!"
+            },
+            "Probabilistic Logic / probability logic / Probabilistic reasoning": {
+                "tldr": "Combines probability and traditional logic (truth tables?) to hopefully come up with something more nuanced.",
+                "Subjective logic": "Takes uncertainty and source trust into account"
+
+            },
+            "Automated theorum proving (ATP) Automated Deduction": {
+                "meta": ["https://en.wikipedia.org/wiki/Automated_theorem_proving"],
+                "tldr": "Not really sure, getting into automated proofs for mathematical theorums"
+            },
+            "interactive theorum proving": "https://en.wikipedia.org/wiki/Interactive_theorem_proving",
+            "automated proof checking": "https://en.wikipedia.org/wiki/Automated_proof_checking",
+            "Inference Engines": {},
+            "Semantic reasoner / reasoning engine / rules engine / reasoner": {
+                "meta": ["https://en.wikipedia.org/wiki/Semantic_reasoner"],
+                "tldr": "Software able to infer logical consequences from a set of asserted facts or axioms",
+                "go through the meta link": "to fill out a list of the free software here."
+            },
+            "Locig Programming": {
+                "meta": ["https://en.wikipedia.org/wiki/Logic_programming"],
+                "tldr": "A programming paradigm based on formal logic.",
+                "Prolog": "A general purpose logic programming language, associated with AI and computational linguistics",
+                "Datalog": "A subset of Prolog. Needs more study",
+                "Answer set programming (ASP)": {
+                    "meta": ["https://www.cs.utexas.edu/users/vl/papers/wiasp.pdf"],
+                    "tldr": "Declaritive programming geard towards difficult search problems, specifically knowledge-intensive applications. (WL!)"
+            }
+        },
+        "Knowledge representation": {
+            "meta": ["https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning"],
+            "Knowledge representation languages": {
+                "Description Logic (family of KR languages)": "https://en.wikipedia.org/wiki/Description_logic",
+                "Web Ontology Language": {
+                    "meta": ["https://en.wikipedia.org/wiki/Web_Ontology_Language", "https://www.w3.org/OWL/"],
+                    "tldr": "Language / format for describing taxonomies for knowledge / classification networks. Nouns representing the classes of objects & the verbs representing the links."
+                },
+                "Knowledge query and manipulation languages": {
+                    "meta": [""],
+                    "KIF, Knowledge Interchange format": "To share & reuse information from/between knowledge based systems. Likened to PostScript. Superceeded by 'Common Logic'",
+                    "Common Logic": ""
+                },
+                "Controlled Natural Languages": {
+                    "meta": ["https://sites.google.com/site/controllednaturallanguage/"],
+                    "tldr": "Restricted grammar & dictionary to make a language clear, concice, and umambiguous for better human or computer readability",
+                    "Attempto Controlled English": "The kind of thing WL claims will need to be written in"
+                },
+                "Frame Based Languages": {
+                    "meta": ["https://en.wikipedia.org/wiki/Frame_language"],
+                    "tldr": "looks like an OO programming language, but for data (knowledge) - needs more study. 'a framework for the expression or use of knowledge'",
+                    "KL-ONE": {},
+                    "LOOM": {}
+                }
+            }
+        },
+        "Planning": {},
+        "Machien Learning": {
+            "Hebbian learning": "https://en.wikipedia.org/wiki/Hebbian_learning",
+            "GMDH": "https://en.wikipedia.org/wiki/GMDH",
+            "competitive": "https://en.wikipedia.org/wiki/Competitive_learning"
+        },
+        "NLP": {},
+        "Spatial Perception": {},
+        "Motion and manipulation": {},
+        "Social Intelligence": {},
+        "Creativity": {},
+        "General Intelligence (AGI)": {
+            "OpenCog": {
+                "meta": ["http://opencog.org/", "https://en.wikipedia.org/wiki/OpenCog"],
+                "tldr": "An open source artificial intelligence framework, aiming for AGI as an emergent phenomonon."
+            }
+        },
+        "neural networks": {
+            "tldr": "an interconnected group of nodes",
+            "acyclic / feedforward": {
+                "tldr":"signals pass in one direction",
+                "perceptrons": "",
+                "multi-layer perceptrons": "",
+                "radial basis": ""
+            },
+            "recurrant": "signals can feedback & have 'short term memory' of recent inputs",
+            "backpropogation algorithum": "https://en.wikipedia.org/wiki/Competitive_learning",
+            "automatic differentiation": "https://en.wikipedia.org/wiki/Automatic_differentiation",
+            "hierarchical temporal memory": "https://en.wikipedia.org/wiki/Hierarchical_temporal_memory",
+            "convolutional neural networks": "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+        },
+        "Control theory": "https://en.wikipedia.org/wiki/Control_theory"
+    },
+    "Software Engineering": {
+        "Web Development": {}
+    },
+    "Security": {
+        "Cryptography": {}
+    },
+    "BlockChain": {
+        "distributed db with 2 types of records":{
+            "blocks": "Batches of valid transactions, hashed & encoded into a Merkle Tree",
+            "transactions": {}
+        },
+        "Bitcoin": {},
+        "Ethereum": {},
+        "Nxt": {},
+        "uses": {
+            "voting systems": {},
+            "copyright managment": {},
+            "governance models": {}
+        }
+    },
+    "Data mining": {},
+    "Computational Statistics": {},
+    "Big Data": {
+    },
+    "WL": {
+        "list out the fundamental axioms of mathematics": {}
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "casts": [
+        {
+            "title": "ShopTalk",
+            "url": "",
+            "description": "After getting hooked into podcasts by Serial I had a look around to see if any front end developer podcasts existed. I didn't expect to find much, so when ShopTalk showed up it was the only dev podcast I listened to for quite a while! Until they started mentioning other dev podcasts..."
+        },
+        {
+            "title": "Codepen Radio",
+            "url": "",
+            "description": "The story and tech behind Codepen, a lot of the subjects they cover here have helped point my thinking for the WL project."
+        },
+        {
+            "title": "This Developers Life",
+            "url": "http://thisdeveloperslife.com/",
+            "description": "A short series of podcasts about life as a developer. I think this may have been my third development podcast, after this it gets a bit hazy - too many to remember!"
+        },
+        {
+            "title": "Javascript Jabber",
+            "url": "https://devchat.tv/js-jabber",
+            "description": "Weekly chats and interviews about javascript, it's pretty wide ranging between soft and hard skills too."
+        },
+        {
+            "title": "Does Not Compute",
+            "url": "https://spec.fm/podcasts/does-not-compute",
+            "description": "A couple of developers chatting about development, they lean more towards the back end but client side code does make appearances!"
+        },
+        {
+            "title": "JS Party",
+            "url": "https://changelog.com/jsparty",
+            "description": "Informal chats and interviews about a range of topics in JavaScript, frequently regarding Node."
+        },
+        {
+            "title": "Full Stack Radio",
+            "url": "http://www.fullstackradio.com/",
+            "description": "Interviews with developers, so far this one has the widest range of technologies of the podcasts I listen to."
+        },
+        {
+            "title": "Request for Commits",
+            "url": "https://changelog.com/rfc",
+            "description": "Interviews with people running open source communities and what it takes to keep those communities healthy."
+        },
+        {
+            "title": "Scale Your Code",
+            "url": "https://scaleyourcode.com/",
+            "description": "A series of interviews with developers / tech directors / very impressive people from big companies about the challenges of developing at huge scales."
+        },
+        {
+            "title": "Soft Skills Engineering",
+            "url": "https://softskills.audio/",
+            "description": "Listeners submit questions, these two answer with examples from their own experience. Purely about the non technical stuff surrounding development careers."
+        },
+        {
+            "title": "Style Guide Podcast",
+            "url": "http://styleguides.io/podcast/",
+            "description": "From styleguides.io, this is a series of interviews with developers who have created styleguides."
+        },
+        {
+            "title": "Syntax",
+            "url": "https://syntax.fm/",
+            "description": "2 developers chatting about development! These two run their own tutorial businesses & do contracting, so it's an interesting view into that world as well."
+        },
+        {
+            "title": "The Changelog",
+            "url": "https://changelog.com/podcast",
+            "description": "Interviews with open source developers, from dev ops to feds."
+        },
+        {
+            "title": "Toolsday",
+            "url": "http://www.toolsday.io/",
+            "description": "Themed chats about development tools by 2 front end devs at IBM. ~20mins and pretty informal with the occasional guest appearance."
+        },
+        {
+            "title": "Machine Learning Guide",
+            "url": "http://ocdevel.com/podcasts/machine-learning",
+            "description": "A series that gives a high level overview of machine learning. A kick off point for getting into the area."
+        }
+    ]
+}

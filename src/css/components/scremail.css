@@ -1,0 +1,7 @@
+.scremail {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    border-bottom: 1px solid var(--blue);
+    cursor: pointer;
+}

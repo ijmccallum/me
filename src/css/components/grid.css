@@ -1,0 +1,10 @@
+/* turns the children into a grid */
+.grid {
+    display: grid;
+    grid-gap: var(--pad);
+    grid-template-columns: repeat(auto-fill,minmax(16rem,1fr));
+}
+
+.span-2 {
+    grid-column: span 2;
+}

@@ -1,0 +1,126 @@
+{
+  "articles": [
+    {
+      "title": "Two feds on Reactjs, Keeping Delphic on the Cutting Edge",
+      "description":
+        "An interview style post put together as we neared the completion of our first react apps for production. Also part of the drive to find more front end developers to add to our team.",
+      "url":
+        "http://www.delphicdigital.com/blog/two-feds-on-reactjs-keeping-delphic-on-the-cutting-edge",
+      "date": "July 2017"
+    },
+    {
+      "title": "Dockerizing Wikilogic",
+      "description":
+        "By this point the set up for WL was becoming quite a headache, not exactly an inviting prospect to attract new developers with. Also deployment was a nightmare. Now we're on docker - two birds with one stone! The article digs into the technical story of setting it up. Note that WL has evolved so the current set up is different, but this should still be helpful for those wishing to learn.",
+      "url": "http://www.wikilogicfoundation.org/dockerizing-wikilogic/",
+      "date": "June 2017"
+    },
+    {
+      "title": ".htaccess: a FED guide to redirects",
+      "description":
+        "This dive into apache came about to try and help alleviate a bottleneck in our pipeline at work. Server configuration is not exactly the most popular subject in the office.",
+      "url":
+        "http://www.delphicdigital.com/blog/htaccess-a-fed-guide-to-redirects",
+      "date": "March 2017"
+    },
+    {
+      "title": "Redux: attempting a simple overview",
+      "description":
+        "This was part of my pitch to use some kind of state management for a complex product listing front end. The idea was turned down which at least gave me the experience of building complex state without a tool like Redux, I would be curious to know how much time we could have saved had we used it!",
+      "url": "http://codepen.io/ijmccallum/post/redux",
+      "date": "October 2016"
+    },
+    {
+      "title": "Regular expressions in Javascript, why so painful!?!",
+      "description":
+        "Sometime I'll just pick a subject and dive in. I don't use regular expressions very often, but for the times I do it's nice to know what's going on!",
+      "url":
+        "http://codepen.io/ijmccallum/post/regular-expressions-in-javascript",
+      "date": "October 2016"
+    },
+    {
+      "title": "CSS Layouts (part 3): The Future - Grids",
+      "description":
+        "CSS Grids and also the viewport units. These only started sneaking into our work towards the end of 2017, and even then it's still experimental.",
+      "url": "http://www.delphicdigital.com/blog/css-layout-techniques-part-3",
+      "date": "April 2016"
+    },
+    {
+      "title": "CSS Layouts (part 2): The Present - Flexbox",
+      "description":
+        "A dig into flexbox in my own words. I'm pretty sure writing this article was the 'click' point for my understanding of flexbox, hard to imagine life without it now!",
+      "url": "http://delphicdigital.com/blog/css-layout-techniques-part-2",
+      "date": "February 2016"
+    },
+    {
+      "title": "CSS Layouts (part 1): The Past - Everything else",
+      "description":
+        "Floats, tables, and also display table. It's interesting to see the influence I felt from the community against display table, I've done a 180 since then, display table is magic.",
+      "url": "http://delphicdigital.com/blog/css-layout-techniques-part-1",
+      "date": "February 2016"
+    },
+    {
+      "title": "SVG 101: Anatomy",
+      "description":
+        "In a previous life I knew SVG through illustration. Now, as a developer, I wanted to know the details - to dive into the guts of the thing. This is a fairly through post on the basic element types that make up an SVG.",
+      "url": "http://herodigital.com/2017/11/06/svg-101-anatomy/",
+      "date": "October 2015"
+    },
+    {
+      "title": "SVG 101: Setting Up",
+      "description":
+        "Optimizing, embedding, and a dive into SVG's viewport / viewbox. Note that the date on the site is just a reflection of when this was published, it sat in the company 'todo' folder for a couple of years. Even made it through an acquisition and onto the new company's blog! Fancy that!",
+      "url": "http://herodigital.com/2017/10/03/svg-101-setting-up/",
+      "date": "October 2015"
+    },
+    {
+      "title": "Sass (part 2): tips and Tricks",
+      "description":
+        "Essentially a miscellaneous bucket for small sass tips, from those we use at work to those that were found while writing the previous article.",
+      "url": "http://delphicdigital.com/blog/sass-part-2-tips-and-tricks",
+      "date": "September  2015"
+    },
+    {
+      "title": "CSS in 3D",
+      "description":
+        "A fun jaunt into the 3d world. Probably written in the hope that it might inspire some of our projects to take advantage of the more interesting capabilities of css.",
+      "url": "http://delphicdigital.com/blog/css-in-3d",
+      "date": "August 2015"
+    },
+    {
+      "title": "Sass (part 1): Architecture",
+      "description":
+        "At work all our sass was organized the same way. This was my exploration of other strategies. Note the age of this article, things have evolved since then.",
+      "url": "http://delphicdigital.com/blog/sass-part-1-architecture",
+      "date": "July 2015"
+    },
+    {
+      "title": "Google Analytics for Front End Developers",
+      "description":
+        "We are frequently asked to paste in that snippet of ga js, and occasionally other bits to go with it. I wanted to dig deeper into how it all worked. The title says 'for feds' but it's just another way of saying 'a bit technical'.",
+      "url": "http://delphicdigital.com/blog/analytics-js",
+      "date": "June 2015"
+    },
+    {
+      "title": "Service Workers",
+      "description":
+        "A technical introduction to service workers. Although on the public company blog I really wrote it with the rest of the team in mind in the hope that service workers would start to play a bigger part in our projects.",
+      "url": "http://delphicdigital.com/blog/service-workers",
+      "date": "May 2015"
+    },
+    {
+      "title": "Chrome Dev tools",
+      "description":
+        "I read through the docs, noted the important parts, condensed it, and put it down in writing. Note that the chrome dev tools team have been quite prolific - they have added a lot more since I wrote this!",
+      "url": "http://delphicdigital.com/blog/chrome-devtools",
+      "date": "May 2015"
+    },
+    {
+      "title": "Git Commands cheat sheet",
+      "description":
+        "A quick run through of git for those who already have a little experience (while writing this I only had a little experience with git, this was my way of digging into it. This was also during the time that Delphic started switching over from SVN",
+      "url": "http://delphicdigital.com/blog/git-commands-cheat-sheet",
+      "date": "April 2015"
+    }
+  ]
+}

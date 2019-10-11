@@ -1,0 +1,9 @@
+@keyframes flashimation {
+    0%   { background-color: var(--blue); }
+    100% { background-color: var(--white); }
+}
+
+.flash {
+    animation-duration: 1s;
+    animation-name: flashimation;
+}
