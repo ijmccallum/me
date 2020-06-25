@@ -16,13 +16,14 @@ module.exports = {
         title: 'Tech Notes',
         collapsable: false,
         children: [
+          ['/techNotes/cobol/learning-cobol', 'Learning Cobol'],
           ['/techNotes/WordPress', 'WordPress'],
           ['/techNotes/arangojs', 'ArangoJS'],
-          ['/techNotes/BeyondCorp', 'BeyondCorp'],
+          // ['/techNotes/BeyondCorp', 'BeyondCorp'],
           ['/techNotes/css', 'CSS'],
           ['/techNotes/docker', 'Docker'],
           ['/techNotes/NodeChromeTracing', 'Node Chrome Tracing'],
-          ['/techNotes/react', 'React'],
+          // ['/techNotes/react', 'React'],
           ['/techNotes/app-starter', 'App Starter']
         ]
       },
@@ -30,8 +31,8 @@ module.exports = {
         title: 'Book Notes',
         collapsable: false,
         children: [
-          ['/bookNotes/20TeamPatterns', '20 Team Patterns'],
-          ['/bookNotes/GoogleSREBook', 'Google SRE Book'],
+          // ['/bookNotes/20TeamPatterns', '20 Team Patterns'],
+          // ['/bookNotes/GoogleSREBook', 'Google SRE Book'],
           {
             title: 'The Architecture of Open Source Applications, Vol 1',
             collapsable: false,
@@ -53,16 +54,16 @@ module.exports = {
             children: [
               ['/bookNotes/TAOSA/Vol2/1%20Scaleable%20web%20arch', 'Ch 1: Scaleable Web Architecture'],
               ['/bookNotes/TAOSA/Vol2/2%20Firefox%20release%20engineering', 'Ch 2: Firefox release engineering'],
-              ['/bookNotes/TAOSA/Vol2/6%20Git', 'Ch 6: Git']
+              // ['/bookNotes/TAOSA/Vol2/6%20Git', 'Ch 6: Git']
             ]
           },
-          {
-            title: 'The Architecture of Open Source Applications, 500 lines',
-            collapsable: false,
-            children: [
-              ['/bookNotes/TAOSA/500lines/10%20an-archaeology-inspired-database', 'Ch 10: An archaeology inspired DB']
-            ]
-          }
+          // {
+          //   title: 'The Architecture of Open Source Applications, 500 lines',
+          //   collapsable: false,
+          //   children: [
+          //     // ['/bookNotes/TAOSA/500lines/10%20an-archaeology-inspired-database', 'Ch 10: An archaeology inspired DB']
+          //   ]
+          // }
         ]
       },
       {

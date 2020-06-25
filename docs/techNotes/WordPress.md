@@ -1,15 +1,3 @@
 # WordPress
 
-WordPress was a big part of my start in development, actually it was _the_ start of it - freelance Graphic Designer / "Web Developer"! I'd build you a website with it even though I had _no idea_ what I was doing! Served me well, a stepping stone into the digital agency world churning out site after site at crazy speed. TDD? Bwahaha. WP you served me well, I may return, but for now fare thee well.
-
-## Plugins
-
-few good ones mentioned in this podcast
-https://www.relativepaths.uk/ep32-wow-plugins-with-kimb-jones/
-
-https://wordpress.org/plugins/disable-comments/
-https://wordpress.org/plugins/duplicate-and-merge-posts/
-https://wordpress.org/plugins/spots/
-https://wordpress.org/plugins/autoptimize/
-pods
-acf
+For me this was the beginning of my development (after the preamble that was the [Stanford Java course](https://see.stanford.edu/Course/CS106A)). As a freelance Graphic Designer I didn't really know what I was doing code wise, but I'd still build you a website! I doubt I'll ever go back to good old WP - if you're looking to set up a site now, I'd just say go sign up for SquareSpace or which ever platform is the easiest, simplest, DIY website builder that'll do everything for you. Life's not long enough to build your own. Thanks WordPress! And goodbye.
