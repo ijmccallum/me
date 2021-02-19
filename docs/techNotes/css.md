@@ -1,17 +1,43 @@
-Naming methodologies:
+# CSS
 
-* Modular (eg BEM)
-* BEM
-* ITCSS
+My development gateway drug. Hacking CSS in WordPress themes was the first development work I was paid for and it remained the core of my day to day for quite a few years. 
+
+## Organising it
+
+The phases of naming, I'm guessing many people went through a similar progression. These are the techniques I went through:
+
+### Name it what it is
+
+eg `.blog-post-title` or `.article-body` etc. Every single activly maintined project I have ever seen using this has turned itself into a tiny microcosm of css nightmares. This may be partly due to the fact that these were some of the first projects I ever worked on. Meaning I had essentially 0 experience. And it may have been the person with 0 experience causing said nightmares. But lets just sweep that under the rug for now and say NEVER USE THIS NAMING CONVENTION!
+
+### Name it what it is (inproved!)
+
+**BEM** `.block__element--modifyer` eg `.blog-post__title--highlight`. Projects written in this style still went the way of darkness, but at least it took them longer. Also, to give more credit to this naming convention, the reason I saw projects turning sideways was more to do with a lack of rigour from the development teams. And to give those teams more credit, they were operating in an agency world which went something like:
+
+> "OK developers, we're gonna need you to pump out components as fast as possible, don't do code reviews, don't test the code, we have a team of quality assurance professionals who'll check the UI for you MANUALLY, oh and by the way we demand pixel perfection on every browser, phone, tablet AND EMAIL CLIENT" Sincerely, management.
+
+Phew! Rant over, clearly got some memories in that department to deal with. Thankfully those times are long gone.
+
+### Name it what it is (pro)
+
+**BEMIT** (BEM + ITCSS). For me this boiled down to prefixing classes with `.js-` when (I hope you guessed it) Javascript is involved. That single addition saved a fantastic amount of pain for me. This was still back in the agency days and also back in the before-react time, so `.js-` could have easily been replaced with `.jquery-was-here-`.
+
+### Atomise it
+
+https://tachyons.io/ (the one I've played with) 
+https://tailwindcss.com/ (the one I hear about on podcasts)
+
+eg `.tc` for `text-align: center;`, or `.db` for `display: block;` This style was a revelation for me. The first one that separated style from html content, the first one that didn't introduce inexplicable links between seemingly random components, the first one that did away with the need for any css gymnastics. Clearly I've yet to experience a full blown professional project with multiple devs using this one!
+
+### Other naming styles that never made it off the to-learn list
+
 * OOCSS / Atomic
 * ECSS
 * SMACSS
 
-Grid / Layout methodologies:
+---
 
-* display:table;
-* float
-* flex
+
 
 Tools:
 
