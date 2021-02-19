@@ -4,19 +4,19 @@
   "description": "",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "./deploy.sh"
+    "predeploy": "vuepress build docs",
+    "deploy": "sh ./deploy.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ijmccallum/ijmccallum.github.io.git"
   },
-  "author": "",
+  "author": "Me",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ijmccallum/ijmccallum.github.io/issues"
   },
-  "homepage": "https://github.com/ijmccallum/ijmccallum.github.io",
+  "homepage": "ijmccallum.github.io",
   "devDependencies": {
     "vuepress": "^1.1.0"
   }

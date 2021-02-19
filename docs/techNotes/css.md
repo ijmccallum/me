@@ -24,10 +24,16 @@ Phew! Rant over, clearly got some memories in that department to deal with. Than
 
 ### Atomise it
 
+_No not atomic components, I'm talking UTILITY CLASSES!_
+
 https://tachyons.io/ (the one I've played with)  
 https://tailwindcss.com/ (the one I hear about on podcasts)  
 
 eg `.tc` for `text-align: center;`, or `.db` for `display: block;` This style was a revelation for me. The first one that separated style from html content, the first one that didn't introduce inexplicable links between seemingly random components, the first one that did away with the need for any css gymnastics. Clearly I've yet to experience a full blown professional project with multiple devs using this one!
+
+### CSS in JS
+
+eg [styled-components](https://www.npmjs.com/package/styled-components) or [Svelte](https://svelte.dev/). Throw all this carefully crafted css naming convention malarky out the window and just JAVASCRIPT it. This is where my professional work has landed (as I'm part of a much larger team these days), but I'm not a huge fan. A lot of the styling inconsistency problems are still around but the budget to spend time fixing it isn't. Personal projects (that don't rely on prebaked templates like this site) I'll always reach back to utility classes. 
 
 ### Other naming styles that never made it off the to-do list
 
