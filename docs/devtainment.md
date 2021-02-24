@@ -63,16 +63,10 @@ Development themed entertainment ... 😎
 * [ ] https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g a11y playlist
 * [ ] https://www.youtube.com/watch?v=EashgVqboWo subscribe to that channel! https://www.youtube.com/watch?v=ho5PnBOoacw and that one!
 
-## Silly things
 
-> Debugging - being the detective in a crime movie where you are also the murderer (coding blocks, ep 81 47:57)
+## [Articles of interest](https://99percentinvisible.org/aoi/)
 
-```js
-function stop(whatTime) {
-  if (whatTime == "hammer time") {
-    console.log(`duuu du du du      du du      du du`);
-  }
-}
-
-stop("hammer time");
-```
+* [Instagrams search architecture](https://engineering.instagram.com/search-architecture-eeb34a936d3a): Quick overview of instagrams search process -mentions a few technologies but they seem facebook specific.
+* [Uber at scale with node](https://foundation.nodejs.org/wp-content/uploads/sites/50/2017/09/Nodejs-at-Uber.pdf): Quick overview of the scale that Uber is using Node at. Node marketing!
+* [Functional-Light-JS](https://github.com/getify/Functional-Light-JS): A deep run through of basic functional programming for JavaScript. It also helps solidify an understanding of JS, particularly scopes and closures. And it has an amazing line saying that immutable variables "reduce the surface area of surprise". Love that!
+* [The Architecture of Open Source Applications](http://aosabook.org/en/index.html): In depth overviews / critiques of the system designs behind some great open source projects.
